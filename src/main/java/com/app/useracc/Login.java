@@ -5,7 +5,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.AnchorPane;
 
 public class Login {
 
@@ -16,7 +16,7 @@ public class Login {
     private Button LoginButton;
 
     @FXML
-    private BorderPane LoginWin;
+    private AnchorPane LoginWin;
 
     @FXML
     private PasswordField Password;
@@ -25,3 +25,4 @@ public class Login {
     private TextField Username;
 
 }
+
