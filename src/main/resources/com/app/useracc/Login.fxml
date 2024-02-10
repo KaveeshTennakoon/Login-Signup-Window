@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:id="LgoinWin" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.useracc.Login">
+<AnchorPane fx:id="LoginWin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.useracc.Login">
    <children>
-      <Label layoutX="273.0" layoutY="200.0" text="login" />
+      <ImageView fitHeight="134.0" fitWidth="160.0" layoutX="42.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/lock-4441691_1280.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="240.0" layoutY="171.0" text="Username" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font></Label>
+      <TextField fx:id="Username" layoutX="359.0" layoutY="163.0" prefHeight="40.0" prefWidth="210.0" promptText="Username">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></TextField>
+      <PasswordField fx:id="Password" layoutX="358.0" layoutY="223.0" prefHeight="40.0" prefWidth="210.0" promptText="Password">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></PasswordField>
+      <Button fx:id="LoginButton" layoutX="240.0" layoutY="296.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="131.0" style="-fx-background-color: #ffc900;" text="Log In">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font></Button>
+      <Label layoutX="240.0" layoutY="232.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="ErrorMsg" layoutX="266.0" layoutY="95.0" textFill="#bc1111">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
