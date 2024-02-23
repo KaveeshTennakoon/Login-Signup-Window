@@ -22,6 +22,10 @@ public class Home {
     @FXML
     void loginwin() throws IOException {
         new SceneSwitch(HomeWin, "Login.fxml");
+    }
 
+    @FXML
+    void signupwin() throws IOException{
+        new SceneSwitch(HomeWin, "Signup.fxml");
     }
 }
