@@ -18,7 +18,7 @@
             <Image url="@../img/open-id-146324_1280.png" />
          </image>
       </ImageView>
-      <Button fx:id="signupwin" layoutX="210.0" layoutY="305.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="180.0" style="-fx-background-color: #ffc900;" text="Sign Up">
+      <Button fx:id="signupwin" layoutX="210.0" layoutY="305.0" mnemonicParsing="false" onAction="#signupwin" prefHeight="33.0" prefWidth="180.0" style="-fx-background-color: #ffc900;" text="Sign Up">
          <font>
             <Font name="Arial Bold" size="18.0" />
          </font>

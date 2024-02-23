@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="SignupWin" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.useracc.Signup">
+   <children>
+      <ImageView fitHeight="112.0" fitWidth="135.0" layoutX="244.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/imagination-3685048_1280.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="36.0" layoutY="173.0" text="Name" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="218.0" text="Age" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="261.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="303.0" text="Username" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="349.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="171.0" layoutY="173.0" prefHeight="25.0" prefWidth="334.0" promptText="Full Name">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="171.0" layoutY="261.0" prefHeight="25.0" prefWidth="334.0" promptText="Email">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="171.0" layoutY="303.0" prefHeight="25.0" prefWidth="334.0" promptText="Username">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="171.0" layoutY="349.0" prefHeight="26.0" prefWidth="334.0" promptText="Password">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </PasswordField>
+      <TextField layoutX="171.0" layoutY="218.0" prefHeight="26.0" prefWidth="72.0" promptText="Age">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
